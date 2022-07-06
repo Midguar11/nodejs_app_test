@@ -1,7 +1,7 @@
 pipeline {
 
     environment {
-        dokcerimagename = "midguar/nodeapp"
+        dokcerimagename = "midguar/nodeapp:tagname"
         dockerImage = ""
     }
 
