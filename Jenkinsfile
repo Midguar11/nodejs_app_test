@@ -18,7 +18,7 @@ pipeline {
       stage('Build Image') {             
         steps{
           script {
-            app = docker.build dockerimagename
+            app = docker.build("midguar/nodeapp")
           }
         }
       }
