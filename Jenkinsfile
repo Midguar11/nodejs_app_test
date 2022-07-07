@@ -3,6 +3,7 @@ pipeline {
     environment {
         dokcerimagename = "midguar/nodeapp"
         dockerImage = ""
+        DOCKERHUB_CREDENTIALS = credentials('midguar-dockerhub')
     }
 
     agent any
