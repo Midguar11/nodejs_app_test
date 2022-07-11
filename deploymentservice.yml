@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: midguard/nodeapp:latest
+        image: midguar/nodeapp:latest
         ports:
         - containerPort: 3000
         
