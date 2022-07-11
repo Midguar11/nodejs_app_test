@@ -19,6 +19,8 @@ spec:
         image: midguar/nodeapp:latest
         ports:
         - containerPort: 3000
+      imagePullSecrets:
+      - name: $kube-jenkins
         
         
 ---
